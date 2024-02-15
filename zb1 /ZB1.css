@@ -1,0 +1,14 @@
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(14, 1fr); 
+            gap: 1px;
+            padding: 1px;
+        }
+
+        .grid-item img {
+            width: 50px;
+            height: auto;
+            transition: opacity 0.5s; 
+        }
+    </style>

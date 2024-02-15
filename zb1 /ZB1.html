@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Olivia Picariello's website</title>
+    <link rel="stylesheet" href="ZB1.css">
+</head>
+<body>
+    <h1>ZEROBASEONE Photocard Collection</h1>
+    <!-- Ricky's photocards -->
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="ricky bp.jpg" alt="Image 1" onclick="toggleOpacity">
+        </div>
+        <div class="grid-item">
+            <img src="ricky kcon.jpg" alt="Image 2" onclick="toggleOpacity">
+        </div>
+        <div class="grid-item">
+            <img src="ricky fankit.jpg" alt="Image 3" onclick="toggleOpacity">
+        </div>
+    </div>
+
+    <script>
+        function toggleOpacity(img) {
+            img.style.opacity = img.style.opacity === "0.5" "1" "0.5";
+        }
+    </script>
+</body>
+</html>
